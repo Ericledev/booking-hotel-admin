@@ -1,0 +1,57 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+tr {
+  padding: 10px 0px;
+  font-size: 12px;
+}
+tr > .checkbox {
+  padding-left: 20px;
+}
+
+td,
+th {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px 0px 5px 20px;
+}
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tbody tr:hover {
+  background-color: #d6eeee;
+}
+.action > .delete,
+.edit {
+  margin: 0px 20px 0px 0px;
+  padding: 5px 10px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: dotted;
+}
+
+/* table footer css */
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.footer .arr-left,
+.arr-right {
+  width: 8px;
+  fill: gray;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.active {
+  background-color: #d6eeee;
+}

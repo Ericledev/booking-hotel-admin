@@ -1,0 +1,27 @@
+/* board-container css */
+.board-container {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0px gray;
+  width: 25%;
+}
+.board-container > .user {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.board-container > .number {
+  color: gray;
+  font-size: 30px;
+}
+/* icon */
+.board-container > .icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.board-container > .icon > svg {
+  width: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}

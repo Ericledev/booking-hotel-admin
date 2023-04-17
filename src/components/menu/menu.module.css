@@ -1,0 +1,27 @@
+.menu-content {
+}
+
+.menu-content ul {
+  list-style: none;
+  color: grey;
+  font-size: 14px;
+  padding: 0px;
+}
+.menu-content > ul > ul {
+  padding: 10px;
+}
+
+.menu-content > ul > li {
+  margin-top: 10px;
+}
+.menu-content > ul > ul > li {
+  display: flex;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.menu-content > ul > ul > li > svg {
+  fill: blue;
+  width: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
